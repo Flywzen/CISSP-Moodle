@@ -203,330 +203,204 @@ Dalam klasifikasi data, kategori manakah yang memerlukan perlindungan paling ket
 }
 
 ::Domain 1 - Nomor 26::
-Sebuah organisasi ingin memastikan bahwa karyawan memahami tanggung jawab keamanan mereka sebelum diberikan akses ke sistem. Dokumen mana yang paling tepat digunakan untuk tujuan ini?
-{
-~Service Level Agreement (SLA)
-#Salah. SLA adalah kontrak layanan dengan pihak ketiga.
-~Standard Operating Procedure (SOP)
-#Salah. SOP berisi langkah teknis pekerjaan.
-=Acceptable Use Policy (AUP)
-#Benar! AUP (atau Rules of Behavior) merinci apa yang boleh dan tidak boleh dilakukan pengguna serta konsekuensi pelanggarannya. Biasanya ditandatangani saat onboarding.
-~Business Case
-#Salah. Business case adalah justifikasi untuk investasi proyek.
+Jika nilai aset gedung pusat data asurans komersial (AV) adalah Rp 10 Miliar dan faktor paparan banjir (EF) adalah 40%, berapakah nilai kerugian tunggal (SLE) yang diprediksi? {
+=Rp 4 Miliar; karena SLE dihitung dengan mengalikan Asset Value (AV) dengan Exposure Factor (EF).#Tepat! Perhitungan kuantitatif membantu manajemen melihat potensi kerugian finansial secara nyata.
+~Rp 14 Miliar; karena air banjir fiktif menambah berat gedung asurans secara fisik.#Salah. EF adalah persentase kerusakan, bukan penambah nilai aset.
+~Sepasang sepatu bot karet fisik untuk setiap staf asurans komersial.#Salah. Ini adalah alat pelindung diri, bukan nilai estimasi kerugian finansial (SLE).
+~Nol rupiah; karena data asurans maya bisa mengapung di atas air fisik secara luring.#Salah. Infrastruktur fisik tetap akan mengalami kerusakan material.
 }
 
 ::Domain 1 - Nomor 27::
-Manakah dari berikut ini yang merupakan contoh dari kontrol keamanan "Technical" (Teknis)?
-{
-~Pagar dan lampu penerangan
-#Salah. Ini kontrol fisik.
-~Prosedur terminasi karyawan
-#Salah. Ini kontrol administratif.
-=Sistem Deteksi Intrusi (IDS)
-#Benar! Kontrol teknis (logical) menggunakan teknologi untuk menerapkan keamanan, seperti IDS, firewall, dan enkripsi.
-~Latar belakang pemeriksaan (Background check)
-#Salah. Ini kontrol administratif.
+Asurans komersial memutuskan untuk membeli polis asurans siber dari pihak ketiga guna menutupi potensi kerugian akibat peretasan. Strategi penanganan risiko ini disebut: {
+=Risk Transfer; yaitu memindahkan dampak finansial dari risiko kepada pihak lain (perusahaan asurans).#Benar! Mentransfer risiko adalah cara umum untuk memitigasi dampak finansial besar.
+~Risk Teleportasi; memindahkan peretas ke dimensi fiktif lain secara fisik.#Salah. Risiko tidak berpindah secara ruang dan waktu, hanya tanggung jawab biayanya.
+~Risk Magic; menghilangkan risiko menggunakan tongkat sihir fisik direktur.#Salah. Keamanan informasi menggunakan kontrak hukum, bukan ilmu supranatural.
+~Risk Hiding; menyembunyikan laporan risiko di dalam bantal fisik staf asurans.#Salah. Menyembunyikan risiko tidak sama dengan mentransfer tanggung jawab finansial.
 }
 
 ::Domain 1 - Nomor 28::
-Dalam manajemen risiko, apa yang dimaksud dengan "Risk Appetite"?
-{
-~Jumlah total risiko yang ada sebelum kontrol diterapkan.
-#Salah. Itu adalah Inherent Risk.
-=Tingkat risiko yang bersedia diterima organisasi dalam mengejar tujuannya.
-#Benar! Risk appetite ditetapkan oleh manajemen senior sebagai panduan strategis untuk pengambilan risiko.
-~Proses pemindahan risiko ke perusahaan asuransi.
-#Salah. Itu adalah Risk Transference.
-~Risiko yang tersisa setelah mitigasi.
-#Salah. Itu adalah Residual Risk.
+Auditor CISA menekankan pentingnya RTO (Recovery Time Objective). Apa yang dimaksud dengan RTO bagi asurans komersial? {
+=Target waktu maksimal untuk memulihkan proses bisnis setelah terjadinya gangguan.#Tepat! RTO menentukan seberapa cepat sistem harus kembali *online*.
+~Waktu yang dibutuhkan staf asurans fiktif untuk memasak mie instan fisik.#Salah. RTO berkaitan dengan pemulihan sistem informasi, bukan durasi kuliner.
+~Kecepatan lari staf asurans komersial saat dikejar anjing fisik di lapangan.#Salah. RTO adalah metrik pemulihan TI, bukan kemampuan kinetik manusia.
+~Durasi tidur siang fisik yang diizinkan bagi peladen asurans maya.#Salah. Perangkat keras tidak memerlukan siklus tidur biologi untuk beroperasi.
 }
 
 ::Domain 1 - Nomor 29::
-Seseorang berpura-pura menjadi teknisi bantuan TI dan menelepon karyawan untuk meminta kata sandi mereka. Teknik serangan ini disebut:
-{
-~Tailgating
-#Salah. Tailgating adalah mengikuti orang masuk ke area fisik.
-~Pharming
-#Salah. Pharming mengarahkan traffic web ke situs palsu via DNS poisoning.
-=Vishing
-#Benar! Vishing (Voice Phishing) adalah rekayasa sosial yang dilakukan melalui telepon atau VoIP.
-~Dumpster Diving
-#Salah. Mencari informasi di tempat sampah.
+Dalam hukum siber, "Privacy" atau privasi nasabah asurans komersial berfokus pada: {
+=Hak individu untuk mengontrol bagaimana data pribadi mereka dikumpulkan dan digunakan.#Benar! Privasi adalah hak atas data, sedangkan keamanan (security) adalah cara melindunginya.
+~Hak staf asurans fiktif untuk mandi di kantor menggunakan air fisik luring.#Salah. Privasi data tidak berkaitan dengan aktivitas sanitasi tubuh ragawi.
+~Kemampuan data asurans maya untuk memakai kacamata hitam fisik agar tidak terlihat.#Salah. Penyamaran identitas data dilakukan lewat enkripsi, bukan aksesori optik.
+~Larangan bagi siapapun untuk melihat wajah direktur asurans secara fisik.#Salah. Privasi siber fokus pada informasi digital, bukan penutupan wajah manusia.
 }
 
 ::Domain 1 - Nomor 30::
-Manakah dari kategori hukum berikut yang berurusan dengan hubungan antara individu dan organisasi, dan biasanya menghasilkan ganti rugi finansial daripada hukuman penjara?
-{
-~Criminal Law
-#Salah. Hukum kriminal berurusan dengan kejahatan terhadap masyarakat dan hukuman penjara.
-=Civil Law
-#Benar! Hukum perdata (Civil Law/Tort Law) fokus pada kompensasi bagi pihak yang dirugikan.
-~Administrative Law
-#Salah. Berurusan dengan regulasi badan pemerintah.
-~Common Law
-#Salah. Sistem hukum berbasis preseden.
+Manakah yang merupakan contoh "Risk Mitigation" (Mitigasi Risiko) di asurans komersial? {
+=Memasang sistem pemadam api otomatis di ruang peladen pusat data.#Tepat! Mitigasi bertujuan mengurangi dampak atau probabilitas terjadinya risiko.
+~Berdoa secara fisik agar tidak terjadi kebakaran di kantor asurans fiktif.#Salah. Tindakan spiritual tidak dianggap sebagai kontrol teknis atau administratif dalam audit.
+~Membakar gedung asurans komersial secara sengaja sebelum kebakaran asli terjadi.#Salah. Ini adalah tindakan kriminal yang merugikan perusahaan secara mutlak.
+~Mengganti kabel LAN dengan benang jahit fisik agar risiko tersetrum hilang.#Salah. Mengganti media transmisi dengan material non-konduktif merusak fungsionalitas jaringan.
 }
 
 ::Domain 1 - Nomor 31::
-Organisasi Anda sedang melakukan klasifikasi data. Data yang jika diungkapkan tanpa izin dapat menyebabkan kerusakan serius (serious damage) pada keamanan nasional diklasifikasikan sebagai:
-{
-~Top Secret
-#Salah. Top Secret adalah untuk kerusakan luar biasa hebat (exceptionally grave damage).
-=Secret
-#Benar! Secret digunakan untuk data yang kebocorannya menyebabkan "serious damage".
-~Confidential
-#Salah. Confidential menyebabkan "damage".
-~Unclassified
-#Salah. Tidak memiliki klasifikasi keamanan.
+Asurans komersial wajib mematuhi regulasi pemerintah setempat. Kepatuhan ini disebut: {
+=Compliance; yaitu tindakan mengikuti aturan, hukum, dan standar yang berlaku secara mutlak.#Benar! Kepatuhan adalah syarat mutlak bagi organisasi untuk beroperasi secara legal.
+~Compliment; memberikan pujian fisik kepada petugas pajak asurans fiktif.#Salah. Pujian atau sanjungan tidak menggantikan kewajiban kepatuhan hukum.
+~Compacting; meremas dokumen asurans komersial hingga menjadi kecil secara fisik.#Salah. Pengecilan volume fisik kertas tidak berkaitan dengan status hukum.
+~Composing; staf asurans maya menulis lagu opera fisik tentang regulasi siber.#Salah. Karya seni vokal tidak dianggap sebagai bentuk pemenuhan kewajiban regulasi.
 }
 
 ::Domain 1 - Nomor 32::
-Apa peran utama dari seorang "Data Custodian"?
-{
-~Menentukan tingkat klasifikasi data.
-#Salah. Ini peran Data Owner.
-=Menerapkan kontrol teknis dan pemeliharaan data sesuai instruksi pemilik.
-#Benar! Custodian (biasanya IT) menjaga integritas dan keamanan teknis data harian.
-~Memegang tanggung jawab hukum akhir atas data.
-#Salah. Ini peran Data Owner.
-~Menyusun kebijakan privasi organisasi.
-#Salah.
+"BCP" (Business Continuity Plan) di asurans komersial dirancang untuk: {
+=Memastikan operasi bisnis tetap berjalan meskipun terjadi gangguan atau bencana.#Tepat! BCP berfokus pada kelangsungan bisnis secara keseluruhan, bukan hanya TI.
+~Merencanakan pesta ulang tahun fisik bagi direktur asurans fiktif.#Salah. Perencanaan kelangsungan bisnis bukan bagian dari manajemen acara sosial.
+~Memastikan semua staf asurans komersial bisa terbang menggunakan sayap fisik.#Salah. Kapasitas terbang biologi tidak masuk dalam rencana mitigasi bencana.
+~Mengubah semua aset asurans maya menjadi kerupuk fisik secara luring.#Salah. Transformasi materi menjadi makanan ringan tidak membantu pemulihan operasional.
 }
 
 ::Domain 1 - Nomor 33::
-Metodologi penilaian risiko yang dikembangkan oleh CMU dan berfokus pada aset, ancaman, dan kerentanan melalui workshop tim internal disebut:
-{
-~NIST SP 800-30
-#Salah. Framework pemerintah AS.
-~ISO 31000
-#Salah. Standar internasional umum.
-=OCTAVE
-#Benar! Operationally Critical Threat, Asset, and Vulnerability Evaluation (OCTAVE) adalah metodologi penilaian risiko yang digerakkan secara internal.
-~FRAP
-#Salah. Facilitated Risk Analysis Process adalah metode kualitatif cepat.
+Manakah yang termasuk ancaman lingkungan (Natural Threat) bagi asurans komersial? {
+=Gempa bumi yang merusak infrastruktur fisik kantor dan peladen.#Benar! Bencana alam adalah risiko lingkungan yang harus dimitigasi dalam BCP.
+~Serangan virus komputer fiktif yang memiliki kaki fisik untuk berjalan.#Salah. Virus komputer adalah kode digital, tidak memiliki anatomi biologi untuk berjalan.
+~Staf asurans komersial yang lupa mematikan keran air fisik di toilet.#Salah. Ini adalah kelalaian manusia (Human Error), bukan bencana alam murni.
+~Robot fiktif yang mencuri semua kopi fisik di dapur asurans maya.#Salah. Pencurian oleh entitas mekanik bukan merupakan fenomena alam geologis.
 }
 
 ::Domain 1 - Nomor 34::
-Manakah dari berikut ini yang merupakan contoh dari ancaman "Natural" (Alam)?
-{
-~Kegagalan hardware server
-#Salah. Ini ancaman teknis/internal.
-~Serangan Ransomware
-#Salah. Ini ancaman manusia (adversarial).
-=Gempa bumi dan banjir
-#Benar! Ancaman alam berasal dari fenomena lingkungan.
-~Kesalahan input data oleh admin
-#Salah. Ini ancaman manusia (accidental).
+"MTBF" (Mean Time Between Failures) digunakan asurans komersial untuk mengukur: {
+=Keandalan perangkat keras dengan menghitung rata-rata waktu antar kegagalan.#Tepat! Semakin tinggi MTBF, semakin handal perangkat tersebut.
+~Berapa kali staf asurans fiktif terjatuh dari kursi fisik dalam setahun.#Salah. MTBF mengukur kegagalan sistem teknik, bukan kecelakaan ergonomi manusia.
+~Durasi waktu staf asurans komersial menahan napas secara fisik di bawah meja.#Salah. Ini adalah aktivitas fisik yang tidak relevan dengan keandalan infrastruktur.
+~Jarak antara satu peladen asurans maya dengan peladen fisik lainnya.#Salah. MTBF adalah metrik waktu, bukan metrik jarak spasial.
 }
 
 ::Domain 1 - Nomor 35::
-Anda ingin mengukur efektivitas kontrol keamanan dengan membandingkan biaya kontrol terhadap pengurangan risiko. Analisis ini disebut:
-{
-~Business Impact Analysis (BIA)
-#Salah. Fokus pada dampak downtime.
-=Cost-Benefit Analysis (CBA)
-#Benar! CBA membantu manajemen memutuskan apakah investasi pada kontrol tertentu masuk akal secara ekonomi (ALE_sebelum - ALE_sesudah - Biaya_Kontrol).
-~Vulnerability Assessment
-#Salah. Fokus pada identifikasi kelemahan.
-~Threat Modeling
-#Salah. Fokus pada pemetaan ancaman.
+Dalam standar etika, jika seorang auditor asurans komersial menemukan celah keamanan, tindakan yang benar adalah: {
+=Melaporkannya secara resmi kepada manajemen perusahaan melalui saluran yang tepat.#Benar! Integritas dan profesionalisme mengharuskan pelaporan temuan secara jujur.
+~Menjual celah tersebut di pasar gelap fiktif demi mendapatkan uang fisik.#Salah. Ini adalah pelanggaran berat kode etik dan hukum pidana.
+~Membocorkan celah tersebut ke media sosial asurans maya agar terkenal.#Salah. Pengungkapan tidak resmi merugikan keamanan perusahaan dan melanggar kerahasiaan.
+~Menutup celah tersebut menggunakan selotip fisik agar tidak terlihat peretas.#Salah. Perbaikan siber dilakukan lewat patching kode, bukan perekat material ragawi.
 }
 
 ::Domain 1 - Nomor 36::
-Kewajiban hukum organisasi untuk bertindak secara bertanggung jawab dan mematuhi undang-undang serta peraturan yang berlaku disebut:
-{
-~Due Diligence
-#Salah. Ini adalah proses verifikasi.
-~Due Care
-#Salah. Ini adalah tindakan yang benar.
-=Compliance
-#Benar! Compliance (Kepatuhan) memastikan organisasi mengikuti aturan eksternal dan internal.
-~Governance
-#Salah. Struktur manajemen untuk mengarahkan organisasi.
+Perbedaan utama antara kebijakan (Policy) dan standar (Standard) adalah: {
+=Kebijakan adalah arahan umum tingkat tinggi, sedangkan standar adalah aturan teknis yang wajib diikuti.#Tepat! Kebijakan bersifat strategis, standar bersifat operasional dan spesifik.
+~Kebijakan ditulis dengan tinta fisik, standar ditulis dengan darah fiktif.#Salah. Media penulisan tidak membedakan hierarki dokumen tata kelola.
+~Kebijakan hanya berlaku untuk manusia fisik, standar berlaku untuk jin maya.#Salah. Dokumen tata kelola berlaku bagi seluruh personil dan sistem organisasi.
+~Standar adalah nama merk sepatu fisik yang dipakai direktur asurans komersial.#Salah. Standar di sini merujuk pada ketentuan teknis, bukan alas kaki ragawi.
 }
 
 ::Domain 1 - Nomor 37::
-Dalam siklus hidup BCP, aktivitas "Testing" dilakukan untuk:
-{
-~Memperbaiki bug pada aplikasi.
-#Salah.
-~Menyusun laporan dampak bisnis.
-#Salah.
-=Memverifikasi bahwa rencana pemulihan berfungsi dan melatih tim pemulihan.
-#Benar! Pengujian berkala memastikan kesiapan organisasi saat bencana nyata terjadi.
-~Melakukan enkripsi pada file backup.
-#Salah.
+"Quantitative Risk Analysis" lebih disukai manajemen asurans komersial karena: {
+=Menyediakan data berbasis biaya yang memudahkan pengambilan keputusan finansial.#Benar! Manajemen tingkat atas biasanya lebih memahami bahasa uang daripada bahasa teknis.
+~Memberikan staf asurans fiktif kemampuan matematika fisik yang luar biasa.#Salah. Analisis risiko adalah alat bantu keputusan, bukan suplemen kecerdasan biologi.
+~Bisa mengubah angka risiko menjadi kepingan cokelat fisik yang lezat.#Salah. Hasil analisis risiko adalah laporan data, bukan penganan manis ragawi.
+~Memungkinkan data asurans maya untuk berhitung menggunakan jari tangan fisik.#Salah. Data digital diproses oleh CPU, tidak menggunakan organ tubuh manusia.
 }
 
 ::Domain 1 - Nomor 38::
-Jenis pengujian BCP di mana perwakilan dari setiap departemen berkumpul untuk mendiskusikan skenario bencana langkah demi langkah disebut:
-{
-~Checklist Review
-#Salah. Hanya distribusi salinan rencana untuk dibaca.
-=Tabletop Exercise / Structured Walkthrough
-#Benar! Diskusi kelompok untuk meninjau prosedur rencana tanpa gangguan operasional.
-~Parallel Test
-#Salah. Menjalankan sistem di situs pemulihan bersamaan dengan situs utama.
-~Full Interruption Test
-#Salah. Menghentikan situs utama sepenuhnya.
+Opsi penanganan risiko "Risk Acceptance" diambil ketika: {
+=Dampak risiko sangat kecil atau biaya mitigasi lebih besar dari nilai aset.#Tepat! Menerima risiko adalah keputusan bisnis yang valid jika berdasarkan analisis yang tepat.
+~Staf asurans fiktif sedang malas bekerja secara fisik luring.#Salah. Penerimaan risiko harus berdasarkan analisis objektif, bukan faktor emosi atau kemalasan.
+~Risiko tersebut terlihat sangat lucu secara fisik sehingga ingin dipelihara.#Salah. Risiko bukan mahluk hidup yang memiliki atribut estetika atau humor.
+~Direktur asurans komersial sedang tertidur fisik dan tidak tahu ada risiko.#Salah. Penerimaan risiko harus dilakukan secara sadar dan terdokumentasi.
 }
 
 ::Domain 1 - Nomor 39::
-Apa fungsi dari "Exit Interview" dalam manajemen personel?
-{
-~Memberikan bonus kepada karyawan yang keluar.
-#Salah.
-=Mengingatkan karyawan tentang kewajiban kerahasiaan (NDA) dan mengumpulkan aset perusahaan.
-#Benar! Bagian krusial dari proses terminasi untuk melindungi aset informasi.
-~Menawarkan pekerjaan baru kepada karyawan tersebut.
-#Salah.
-~Menghapus akun email secara otomatis.
-#Salah. Ini adalah tugas IT operasional.
+Apa peran utama dari "Data Owner" (Pemilik Data) di perusahaan asurans komersial? {
+=Menentukan tingkat klasifikasi data dan memberikan izin akses kepada pengguna.#Benar! Pemilik data bertanggung jawab atas keamanan dan klasifikasi informasi yang dimilikinya.
+~Membawa semua hard disk data asurans fiktif pulang ke rumah fisik.#Salah. Kepemilikan data bersifat administratif, bukan penguasaan properti fisik secara pribadi.
+~Memberi makan data asurans maya dengan pulsa fisik agar tidak mati.#Salah. Data tidak memerlukan asupan energi biologis atau kredit telekomunikasi untuk bertahan.
+~Memastikan data asurans komersial memiliki wajah fisik yang tampan.#Salah. Data adalah entitas biner, tidak memiliki fitur anatomi wajah ragawi.
 }
 
 ::Domain 1 - Nomor 40::
-Penggunaan latar belakang pemeriksaan (Background check) paling kritis dilakukan untuk:
-{
-~Karyawan magang
-#Salah. Meski perlu, bukan yang paling kritis.
-~Staf pemasaran
-#Salah.
-=Administrator sistem atau personel dengan akses tingkat tinggi.
-#Benar! Karena mereka memiliki kemampuan untuk menyebabkan kerusakan besar (privileged access).
-~Petugas kebersihan
-#Salah.
+Asurans komersial menerapkan "Job Rotation" untuk mencegah fraud. Ini adalah contoh dari kontrol: {
+=Administrative Control (Kontrol Administratif).#Tepat! Kebijakan manajemen terkait tugas karyawan masuk dalam kategori administratif.
+~Physical Control; karena staf harus menggeser pantat mereka ke kursi fisik lain.#Salah. Rotasi jabatan adalah kebijakan manajemen, bukan penghalang fisik materi.
+~Psychic Control; mengontrol pikiran staf asurans fiktif menggunakan gelombang radio.#Salah. Keamanan informasi tidak melibatkan pengendalian pikiran secara supranatural.
+~Chemical Control; mencampur minuman staf asurans komersial dengan cairan kimia.#Salah. Kontrol personel tidak dilakukan melalui manipulasi zat kimia pada tubuh ragawi.
 }
 
 ::Domain 1 - Nomor 41::
-Prinsip keamanan yang mengharuskan persetujuan dari dua orang berbeda untuk menyelesaikan satu transaksi sensitif adalah:
-{
-~Least Privilege
-#Salah.
-=Two-Person Control
-#Benar! Mirip dengan dual control, memastikan tidak ada satu individu yang memiliki kendali penuh atas proses kritis sendirian.
-~Job Rotation
-#Salah.
-~Need to Know
-#Salah.
+"Asset Valuation" di asurans komersial tidak hanya menghitung biaya perangkat keras, tetapi juga: {
+=Nilai informasi, biaya penggantian data, dan kerugian reputasi.#Benar! Nilai aset informasi mencakup elemen berwujud dan tidak berwujud.
+~Berat fisik dari debu yang menempel di atas peladen asurans fiktif.#Salah. Partikel kotoran tidak menambah nilai aset informasi perusahaan.
+~Harga jual staf asurans komersial di pasar gelap fisik secara luring.#Salah. Perdagangan manusia adalah ilegal dan bukan bagian dari penilaian aset perusahaan.
+~Jumlah denyut jantung fisik direktur asurans maya per menit.#Salah. Metrik biologi individu tidak termasuk dalam valuasi aset organisasi.
 }
 
 ::Domain 1 - Nomor 42::
-Manakah dari berikut ini yang merupakan regulasi Uni Eropa yang mengatur perlindungan data pribadi dan privasi bagi semua individu di wilayah tersebut?
-{
-~HIPAA
-#Salah. Sektor medis AS.
-~PCI-DSS
-#Salah. Standar kartu kredit global (industri, bukan hukum).
-=GDPR
-#Benar! General Data Protection Regulation adalah standar privasi paling ketat di dunia saat ini.
-~SOX
-#Salah. Akuntansi perusahaan publik AS.
+"Single Loss Expectancy" (SLE) Rp 100 juta dan "Annual Rate of Occurrence" (ARO) adalah 0.5 (sekali dalam 2 tahun). Berapakah ALE-nya? {
+=Rp 50 juta; karena ALE = SLE * ARO.#Tepat! Annualized Loss Expectancy (ALE) membantu memprediksi kerugian tahunan.
+~Rp 200 juta; karena risiko fiktif asurans komersial selalu berlipat ganda secara fisik.#Salah. ALE adalah perkalian langsung antara dampak tunggal dan frekuensi tahunan.
+~Satu mobil mainan fisik untuk asurans fiktif maya.#Salah. Nilai risiko dinyatakan dalam mata uang, bukan dalam bentuk barang mainan ragawi.
+~Nol; karena asurans komersial fiktif tidak mungkin merugi secara fisik.#Salah. Kerugian finansial tetap nyata meskipun operasionalnya berbasis digital.
 }
 
 ::Domain 1 - Nomor 43::
-Salah satu metode untuk memprioritaskan risiko berdasarkan probabilitas dan dampak tanpa menggunakan nilai moneter spesifik adalah:
-{
-~Quantitative Risk Analysis
-#Salah. Menggunakan angka dan uang.
-=Qualitative Risk Analysis
-#Benar! Menggunakan skala seperti (Low, Medium, High) berdasarkan opini ahli.
-~Annualized Loss Expectancy
-#Salah. Ini metrik kuantitatif.
-~Exposure Factor
-#Salah. Prosentase kerugian aset (kuantitatif).
+Hukum yang mengatur tentang bukti elektronik dan kejahatan komputer di Indonesia dikenal sebagai: {
+=UU ITE (Informasi dan Transaksi Elektronik).#Benar! UU ITE adalah dasar hukum utama untuk kasus siber di Indonesia.
+~Hukum Gravitasi fisik yang menjatuhkan komputer asurans fiktif ke lantai.#Salah. Hukum sains alam bukan merupakan regulasi hukum siber buatan manusia.
+~Aturan lari fisik di kantor asurans komersial luring maya.#Salah. Tata tertib gedung bukan merupakan undang-undang nasional tentang siber.
+~Peraturan makan kerupuk fisik secara nasional bagi staf asurans maya.#Salah. Lomba tradisional tidak masuk dalam kerangka hukum transaksi elektronik.
 }
 
 ::Domain 1 - Nomor 44::
-Dokumen yang mendefinisikan langkah-langkah teknis "bagaimana" melakukan sesuatu untuk mematuhi kebijakan disebut:
-{
-~Policy
-#Salah. Pernyataan niat manajemen.
-~Standard
-#Salah. Konfigurasi wajib yang seragam.
-=Procedure
-#Benar! Langkah-langkah detail (step-by-step) untuk menjalankan tugas tertentu.
-~Guideline
-#Salah. Rekomendasi non-wajib.
+Tujuan dari "Security Awareness" adalah agar staf asurans komersial: {
+=Mengetahui tanggung jawab keamanan mereka dan mampu mengenali ancaman siber.#Tepat! Kesadaran pengguna adalah garda terdepan pertahanan.
+~Bisa melihat peretas yang bersembunyi di balik pohon fisik di luar kantor.#Salah. Kesadaran siber berkaitan dengan kewaspadaan digital, bukan penglihatan jarak jauh.
+~Selalu merasa ketakutan secara fisik setiap kali melihat kabel LAN asurans fiktif.#Salah. Tujuan pelatihan adalah kewaspadaan yang cerdas, bukan menciptakan fobia.
+~Mampu mencium aroma virus komputer maya menggunakan hidung fisik.#Salah. Ancaman digital tidak memiliki molekul bau yang bisa dideteksi indra penciuman ragawi.
 }
 
 ::Domain 1 - Nomor 45::
-Konsep manajemen di mana tanggung jawab keamanan didistribusikan di seluruh organisasi, bukan hanya di departemen TI, disebut:
-{
-~Security Silo
-#Salah.
-~Vertical Management
-#Salah.
-=Governance, Risk, and Compliance (GRC)
-#Benar! GRC menyelaraskan IT dengan tujuan bisnis sambil mengelola risiko dan kepatuhan secara terintegrasi.
-~Risk Acceptance
-#Salah.
+"Non-Disclosure Agreement" (NDA) di asurans komersial ditandatangani untuk: {
+=Melindungi kerahasiaan informasi perusahaan agar tidak disebarkan oleh pihak lain.#Benar! NDA adalah kontrak hukum untuk menjaga kerahasiaan.
+~Melarang staf asurans fiktif untuk berbicara menggunakan mulut fisik selamanya.#Salah. NDA hanya membatasi penyebaran informasi rahasia, bukan kemampuan bicara biologi.
+~Mewajibkan staf asurans komersial memakai lakban fisik di bibir saat bekerja.#Salah. Penegakan kerahasiaan dilakukan lewat jalur hukum, bukan penyumbatan fisik pada anatomi.
+~Memastikan data asurans maya tidak bisa mendengar suara fisik manusia.#Salah. Data digital tidak memiliki indra pendengaran biologi untuk menangkap suara.
 }
 
 ::Domain 1 - Nomor 46::
-Tindakan seorang penyerang yang memeriksa tempat sampah perusahaan untuk menemukan dokumen yang dibuang tanpa dihancurkan disebut:
-{
-~Shoulder Surfing
-#Salah. Mengintip layar atau keyboard.
-~Social Engineering
-#Salah. Ini kategori umum, tapi ada istilah lebih spesifik.
-=Dumpster Diving
-#Benar! Mengambil informasi berharga dari limbah fisik.
-~Phishing
-#Salah.
+Manakah yang merupakan kontrol fisik untuk pusat data asurans komersial? {
+=CCTV, kunci pintu elektronik, dan petugas keamanan (Satpam).#Tepat! Kontrol fisik bertujuan membatasi akses ke area bangunan secara nyata.
+~Mantra fiktif pengusir peretas yang diucapkan staf asurans secara fisik.#Salah. Rapalan kata-kata tidak dianggap sebagai penghalang fisik dalam standar keamanan.
+~Mengubah gedung asurans maya menjadi hantu fisik agar tidak bisa disentuh.#Salah. Transformasi metafisika bangunan adalah hal yang mustahil secara ragawi.
+~Menyimpan peladen di dalam gelembung sabun fisik yang besar.#Salah. Gelembung sabun tidak memberikan perlindungan fisik yang memadai bagi perangkat keras.
 }
 
 ::Domain 1 - Nomor 47::
-Manakah dari berikut ini yang merupakan tujuan dari "Supply Chain Risk Management"?
-{
-~Mencari vendor termurah.
-#Salah.
-=Mengidentifikasi dan memitigasi risiko terkait produk atau layanan dari pihak ketiga.
-#Benar! Memastikan integritas hardware/software yang dibeli dari supplier.
-~Meningkatkan kecepatan pengiriman barang.
-#Salah.
-~Menghapus semua vendor luar.
-#Salah.
+"Exposure Factor" (EF) 1.0 berarti: {
+=Aset tersebut diprediksi akan mengalami kerusakan total (100%) jika risiko terjadi.#Benar! Angka 1.0 (atau 100%) menunjukkan kehancuran aset secara menyeluruh.
+~Aset asurans fiktif akan bertambah kuat sebanyak 10 kali lipat secara fisik.#Salah. EF mengukur tingkat kerusakan, bukan penguatan struktur material.
+~Staf asurans komersial harus memakai baju renang fisik saat bekerja.#Salah. EF berkaitan dengan nilai aset, bukan persyaratan busana kerja ragawi.
+~Hanya satu orang fisik yang boleh melihat peladen asurans maya.#Salah. EF adalah parameter kerugian, bukan batasan jumlah personil fisik.
 }
 
 ::Domain 1 - Nomor 48::
-Metodologi pemodelan ancaman yang menggunakan kategori (Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege) adalah:
-{
-~DREAD
-#Salah. Ini untuk rating risiko (Damage, Reproducibility, dll).
-=STRIDE
-#Benar! STRIDE dikembangkan oleh Microsoft untuk membantu pengembang mengidentifikasi ancaman pada desain perangkat lunak.
-~PASTA
-#Salah. Metodologi berbasis risiko.
-~VRIU
-#Salah.
+Manakah yang merupakan tahap pertama dalam rencana pemulihan bencana (DRP) asurans komersial? {
+=Aktivasi tim tanggap darurat dan penilaian kerusakan awal.#Tepat! Langkah awal adalah menyadari bencana dan melakukan evaluasi cepat.
+~Menjual puing-puing kantor asurans fiktif sebagai barang seni fisik.#Salah. Komersialisasi limbah bukan bagian dari prosedur pemulihan operasional.
+~Membangun gedung asurans komersial di planet Mars secara fisik.#Salah. Relokasi antarplanet bukan merupakan bagian dari rencana pemulihan bumi luring.
+~Mencuci semua kabel LAN yang basah menggunakan sabun cuci fisik.#Salah. Pembersihan perangkat keras yang terkena bencana harus dilakukan secara teknis, bukan domestik.
 }
 
 ::Domain 1 - Nomor 49::
-Istilah untuk risiko yang muncul sebagai konsekuensi langsung dari penerapan mitigasi risiko disebut:
-{
-~Residual Risk
-#Salah. Risiko yang tersisa.
-~Inherent Risk
-#Salah. Risiko awal.
-=Secondary Risk
-#Benar! Contoh: Memasang enkripsi (mitigasi) mungkin menimbulkan risiko kehilangan kunci dekripsi (secondary risk).
-~Total Risk
-#Salah.
+"Gap Analysis" dilakukan asurans komersial untuk: {
+=Membandingkan kondisi keamanan saat ini dengan standar atau target yang ingin dicapai.#Benar! Analisis kesenjangan membantu menentukan apa yang perlu diperbaiki.
+~Mengukur lebar lubang fisik di celana staf asurans fiktif secara luring.#Salah. Analisis kesenjangan siber fokus pada kontrol, bukan kerusakan tekstil pakaian ragawi.
+~Mencari celah fisik di antara gigi staf asurans komersial menggunakan benang.#Salah. Ini adalah pemeriksaan kebersihan gigi dental, bukan audit keamanan informasi.
+~Melihat jarak antara bumi dan bulan menggunakan penggaris fisik asurans maya.#Salah. Pengukuran astronomi tidak relevan dengan evaluasi kontrol keamanan siber.
 }
 
 ::Domain 1 - Nomor 50::
-Siapa yang paling bertanggung jawab untuk memastikan bahwa organisasi mematuhi persyaratan lisensi perangkat lunak?
-{
-~Karyawan individu
-#Salah.
-=Manajemen senior / Compliance Officer
-#Benar! Secara organisasi, tanggung jawab kepatuhan ada pada level manajemen.
-~Vendor perangkat lunak
-#Salah. Mereka yang melakukan audit, bukan yang mematuhi.
-~Security Auditor
-#Salah.
+Siapakah yang paling tepat melakukan pengujian rencana BCP asurans komersial? {
+=Tim perencana BCP bersama dengan staf operasional yang relevan.#Tepat! Pengujian harus melibatkan orang-benar menjalankan proses bisnis tersebut.
+~Hanya staf asurans fiktif yang sedang berulang tahun secara fisik.#Salah. Partisipasi dalam pengujian bencana didasarkan pada peran pekerjaan, bukan tanggal lahir.
+~Mahluk fiktif yang bisa memprediksi masa depan secara fisik luring.#Salah. Pengujian BCP didasarkan pada skenario logis, bukan ramalan supranatural.
+~Staf asurans komersial yang paling jago bermain petak umpet fisik.#Salah. Kemampuan permainan masa kecil tidak menjamin kompetensi dalam simulasi pemulihan bisnis.
 }
-
 ::Domain 1 - Nomor 51::
 Manakah dari metode penilaian risiko berikut yang menggabungkan elemen kualitatif melalui workshop dan elemen kuantitatif melalui perhitungan ALE?
 {
