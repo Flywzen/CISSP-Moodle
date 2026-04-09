@@ -810,329 +810,208 @@ Prinsip "Prudence" dalam manajemen risiko asurans komersial berarti: {
 ~Mengubah semua aset asurans komersial menjadi batu fisik agar tidak bisa dicuri.#Salah. Transformasi materi menjadi benda mati yang tidak fungsional merusak tujuan bisnis.
 }
 
+// =============================================================
+// DOMAIN 2: ASSET SECURITY (BATCH 2: 101-125)
+// =============================================================
+
 ::Domain 2 - Nomor 101::
-Dalam siklus hidup manajemen aset, siapa yang memiliki tanggung jawab utama untuk menentukan tingkat klasifikasi data berdasarkan nilai bisnis dan sensitivitasnya?
-{
-~Data Custodian
-#Salah. Custodian (IT) bertanggung jawab atas pemeliharaan teknis, bukan klasifikasi.
-=Data Owner
-#Benar! Data Owner (Manajer Bisnis) adalah pihak yang paling memahami nilai data dan memegang tanggung jawab akhir atas klasifikasi serta hak aksesnya.
-~Chief Information Security Officer (CISO)
-#Salah. CISO menetapkan kebijakan tata kelola, namun tidak mengklasifikasikan data operasional satu per satu.
-~System Administrator
-#Salah. Administrator menjalankan fungsi teknis sesuai instruksi pemilik data.
+Dalam asurans komersial, data yang sudah tidak lagi memiliki nilai bisnis tetapi harus disimpan karena aturan hukum disebut sebagai data dalam masa: {
+=Legal Hold atau Retention Period; di mana data wajib dijaga integritasnya untuk kebutuhan audit atau pengadilan.#Tepat! Kepatuhan hukum seringkali mewajibkan penyimpanan data selama bertahun-tahun.
+~Masa pertumbuhan fisik bagi data asurans fiktif agar menjadi dewasa.#Salah. Data digital tidak mengalami proses biologi pendewasaan usia.
+~Masa hibernasi musim dingin bagi peladen asurans maya secara luring.#Salah. Hibernasi adalah kondisi hemat energi, bukan kewajiban penyimpanan hukum.
+~Waktu luang bagi data asurans komersial untuk bermain di taman fisik.#Salah. Data tidak memiliki kesadaran untuk melakukan aktivitas rekreasi.
 }
 
 ::Domain 2 - Nomor 102::
-Organisasi Anda menyimpan data kartu kredit pelanggan. Label klasifikasi apa yang PALING TEPAT digunakan untuk data tersebut di sektor komersial?
-{
-~Public
-#Salah. Data publik tidak memerlukan perlindungan kerahasiaan.
-~Internal Use Only
-#Salah. Kurang ketat untuk data yang sangat sensitif seperti info keuangan.
-=Confidential / Private
-#Benar! Label Confidential atau Private digunakan untuk data yang dapat menyebabkan dampak kerugian material atau hukum jika bocor (termasuk PII dan data keuangan).
-~Unclassified
-#Salah. Istilah ini merujuk pada data tanpa tingkat sensitivitas khusus.
+Metode penghancuran data yang paling aman untuk media SSD (Solid State Drive) di kantor asurans komersial adalah: {
+=Disintegrasi fisik atau Crypto-shredding; karena degaussing tidak efektif pada memori flash.#Benar! SSD menggunakan sirkuit elektrik, bukan magnetik, sehingga butuh cara khusus.
+~Menyiram SSD menggunakan air teh fisik yang sangat panas secara luring.#Salah. Cairan panas hanya merusak casing luar tanpa menjamin data tidak bisa dipulihkan.
+~Memasukkan SSD ke dalam saku celana staf asurans fiktif lalu dicuci.#Salah. Proses pencucian pakaian tidak menjamin penghapusan biner pada chip memori.
+~Mewajibkan staf asurans maya untuk memelototi SSD secara fisik sampai datanya takut.#Salah. Tekanan psikologis visual tidak memengaruhi penyimpanan data elektronik.
 }
 
 ::Domain 2 - Nomor 103::
-Manakah dari teknik berikut yang paling efektif untuk menghancurkan data pada media penyimpanan Solid State Drive (SSD) agar data tersebut tidak dapat dipulihkan kembali?
-{
-~Degaussing
-#Salah. Degaussing hanya bekerja pada media magnetik (HDD/Tape), tidak efektif pada SSD yang berbasis flash memory.
-~Quick Format
-#Salah. Format hanya menghapus tabel indeks, data sektor fisik tetap ada.
-=Physical Destruction (Shredding) atau Cryptographic Erase
-#Benar! Penghancuran fisik (shredding) adalah cara paling pasti. Alternatifnya adalah Cryptographic Erase (menghapus kunci enkripsi jika SSD dienkripsi secara penuh).
-~Overwriting (Zero Fill) satu kali
-#Salah. SSD memiliki teknik wear leveling yang membuat penulisan ulang sekali tidak menjamin semua sel memori tertimpa.
+"Information Lifecycle Management" (ILM) di asurans komersial membantu organisasi untuk: {
+=Mengelola data dari pembuatan, penggunaan, penyimpanan, hingga pemusnahan secara efisien.#Tepat! ILM memastikan sumber daya penyimpanan digunakan secara optimal sesuai nilai data.
+~Memberikan obat vitamin fisik kepada data asurans fiktif agar tidak cepat rusak.#Salah. Data digital tidak memerlukan asupan nutrisi biologis untuk bertahan.
+~Mengatur jadwal olahraga fisik bagi seluruh server asurans maya secara luring.#Salah. Perangkat keras tidak melakukan aktivitas fisik untuk menjaga kesehatan fungsi.
+~Menghitung berapa kali data asurans komersial berkedip secara fisik di monitor.#Salah. Data tidak memiliki kelopak mata biologi untuk melakukan gerakan berkedip.
 }
 
 ::Domain 2 - Nomor 104::
-Informasi Identitas Pribadi (PII) harus dilindungi sesuai regulasi privasi. Manakah dari item berikut yang merupakan contoh PII?
-{
-~Merek laptop perusahaan.
-#Salah.
-~Alamat IP server publik.
-#Salah.
-=Nomor Jaminan Sosial (SSN) atau Nomor Induk Kependudukan (NIK).
-#Benar! Ini adalah data unik yang dapat digunakan untuk mengidentifikasi individu secara langsung.
-~Versi sistem operasi workstation.
-#Salah.
+Klasifikasi data "Private" dalam konteks internal asurans komersial merujuk pada: {
+=Data yang terkait dengan personil atau karyawan (seperti gaji dan catatan medis).#Benar! Data ini sensitif karena menyangkut privasi individu di dalam perusahaan.
+~Data mengenai merek kopi fisik yang diminum direktur asurans fiktif.#Salah. Preferensi minuman pribadi bukan merupakan klasifikasi data formal organisasi.
+~Data tentang jumlah jerawat fisik pada wajah staf asurans komersial.#Salah. Kondisi kulit staf bukan merupakan informasi bisnis yang diklasifikasikan.
+~Hak untuk memiliki kunci fisik menuju pintu rahasia di gedung asurans maya.#Salah. Akses fisik ke ruangan bukan merupakan klasifikasi data informasi.
 }
 
 ::Domain 2 - Nomor 105::
-Apa peran utama dari seorang "Data Custodian" dalam organisasi?
-{
-~Menentukan klasifikasi keamanan data.
-#Salah. Ini tugas Data Owner.
-=Melakukan backup data, memelihara integritas, dan mengelola hak akses teknis.
-#Benar! Custodian (biasanya IT) bertindak atas instruksi Data Owner untuk menjaga aset data secara operasional.
-~Memastikan data digunakan untuk tujuan pemasaran.
-#Salah.
-~Memegang tanggung jawab hukum akhir atas kebocoran data.
-#Salah. Ini tugas manajemen eksekutif/Data Owner.
+Apa kegunaan utama dari "Data Dictionary" bagi tim TI asurans komersial? {
+=Menyediakan definisi standar, format, dan struktur untuk setiap elemen data dalam basis data.#Tepat! Ini memastikan konsistensi data di seluruh sistem asurans.
+~Kamus fisik untuk menerjemahkan bahasa manusia menjadi bahasa peladen asurans fiktif.#Salah. Data dictionary adalah meta-data sistem, bukan alat translasi bahasa lisan.
+~Buku fiktif yang berisi daftar kata-kata kasar yang dilarang diucapkan data maya.#Salah. Data digital tidak memiliki kemampuan vokal untuk berbicara secara kasar.
+~Kumpulan kertas fisik untuk mengganjal meja peladen asurans komersial yang goyang.#Salah. Dokumentasi sistem tidak boleh digunakan sebagai alat bantu mekanik perbaikan furnitur.
 }
 
 ::Domain 2 - Nomor 106::
-Istilah "Data Remanence" mengacu pada:
-{
-~Data yang telah dicadangkan ke situs pemulihan bencana.
-#Salah.
-=Sisa data yang masih ada pada media penyimpanan setelah upaya penghapusan dilakukan.
-#Benar! Data remanence merupakan risiko keamanan karena sisa data tersebut mungkin masih dapat dipulihkan dengan alat khusus.
-~Data yang tidak lagi digunakan oleh bisnis.
-#Salah. Itu adalah data usang (obsolete).
-~Data yang dienkripsi dengan kunci yang sangat kuat.
-#Salah.
+Prosedur "Degaussing" pada hard disk asurans komersial akan mengakibatkan: {
+=Penghancuran domain magnetik pada piringan disk sehingga data hilang permanen.#Benar! Degaussing juga sering merusak mekanisme fisik disk (servo) sehingga tidak bisa dipakai lagi.
+~Hard disk asurans fiktif menjadi sangat wangi seperti bunga melati fisik.#Salah. Proses magnetik tidak menghasilkan aroma wewangian biologi.
+~Hard disk asurans komersial luring maya bisa menempel di kulkas fisik.#Salah. Degaussing menghilangkan sifat magnetik, bukan menjadikannya magnet tempelan kulkas.
+~Data asurans maya berubah menjadi gambar kucing fisik secara otomatis.#Salah. Penghancuran data menghasilkan kebisingan acak, bukan gambar spesifik.
 }
 
 ::Domain 2 - Nomor 107::
-Manakah dari standar berikut yang memberikan panduan khusus mengenai perlindungan Informasi Identitas Pribadi (PII) di layanan cloud publik?
-{
-~ISO/IEC 27001
-#Salah. Framework umum ISMS.
-~NIST SP 800-53
-#Salah. Kontrol keamanan umum federal.
-=ISO/IEC 27018
-#Benar! Ini adalah standar internasional yang berfokus pada privasi data di cloud.
-~PCI-DSS
-#Salah. Fokus pada keamanan kartu kredit.
+Manakah yang merupakan tantangan utama "Data Storage" (Penyimpanan Data) di asurans komersial saat ini? {
+=Pertumbuhan volume data yang sangat cepat dan kebutuhan akan ketersediaan tinggi.#Tepat! Semakin banyak data klaim, semakin besar kapasitas dan proteksi yang dibutuhkan.
+~Mencegah data asurans fiktif agar tidak terjatuh dari rak penyimpanan fisik.#Salah. Data disimpan dalam media digital, tidak memiliki massa untuk jatuh karena gravitasi.
+~Memastikan data asurans komersial memiliki cukup oksigen fisik untuk bernapas.#Salah. Data digital tidak memerlukan pertukaran gas atmosfer untuk bertahan hidup.
+~Menghalangi peretas maya agar tidak mencuri debu fisik di ruang penyimpanan.#Salah. Debu bukan merupakan aset informasi yang perlu dilindungi secara siber.
 }
 
 ::Domain 2 - Nomor 108::
-Saat memilih kontrol keamanan untuk sebuah aset, strategi "Baselines" merujuk pada:
-{
-~Membeli asuransi untuk menutupi kerugian aset.
-#Salah. Itu transfer risiko.
-~Menghapus aset yang memiliki risiko tinggi.
-#Salah. Itu avoidance.
-=Penerapan serangkaian kontrol keamanan minimum yang diwajibkan untuk seluruh organisasi atau sistem tertentu.
-#Benar! Baseline memberikan standar proteksi awal yang konsisten sebelum penyesuaian (tailoring) dilakukan.
-~Mengaudit aset setiap hari secara manual.
-#Salah.
+Kegiatan "Data Masking" pada lingkungan pengujian (Testing) asurans komersial dilakukan untuk: {
+=Menyembunyikan data asli nasabah dengan data tiruan agar privasi tetap terjaga saat pengujian.#Benar! Ini mencegah pengembang melihat data sensitif yang sebenarnya.
+~Mewajibkan data asurans fiktif memakai topeng fisik saat masuk ke peladen.#Salah. Masking siber adalah teknik pengaburan data, bukan penggunaan aksesori wajah ragawi.
+~Mengecat layar monitor asurans komersial dengan warna putih fisik secara luring.#Salah. Penutupan layar secara fisik tidak mengubah nilai data di dalam sistem.
+~Mengubah suara data asurans maya menjadi suara hantu fisik agar penguji takut.#Salah. Modulasi audio tidak termasuk dalam teknik perlindungan privasi data.
 }
 
 ::Domain 2 - Nomor 109::
-Data yang sedang diproses di dalam memori RAM atau CPU dikategorikan sebagai:
-{
-~Data at Rest
-#Salah. Data yang disimpan di disk/statis.
-~Data in Transit
-#Salah. Data yang bergerak melintasi jaringan.
-=Data in Use
-#Benar! Data yang sedang aktif diakses atau dimodifikasi di memori disebut "Data in Use".
-~Data in Archive
-#Salah.
+Dalam standar privasi, "Data Portability" memberikan hak kepada nasabah asurans komersial untuk: {
+=Mendapatkan salinan data mereka dalam format yang dapat dibaca mesin untuk dipindahkan ke layanan lain.#Tepat! Ini adalah hak nasabah untuk berpindah antar penyedia asurans dengan mudah.
+~Membawa peladen asurans fiktif pulang ke rumah fisik menggunakan gerobak.#Salah. Portabilitas data berkaitan dengan file digital, bukan perpindahan perangkat keras secara fisik.
+~Mengubah data asurans komersial menjadi koper fisik yang bisa dibawa bepergian.#Salah. Transformasi data menjadi objek bagasi ragawi tidak dimungkinkan.
+~Meminta staf asurans maya untuk menggendong nasabah secara fisik luring.#Salah. Hak portabilitas data tidak mencakup layanan transportasi fisik bagi manusia.
 }
 
 ::Domain 2 - Nomor 110::
-Metode pembersihan media penyimpanan yang menggunakan medan magnet kuat untuk menghapus data pada hard disk magnetik disebut:
-{
-~Wiping
-#Salah. Menggunakan penulisan ulang perangkat lunak.
-=Degaussing
-#Benar! Degaussing menghancurkan pola magnetik pada piringan (platter) HDD atau pita magnetik.
-~Leaching
-#Salah.
-~Etching
-#Salah.
+"Data Integrity" di asurans komersial terancam jika: {
+=Terjadi perubahan data yang tidak sah, baik secara sengaja maupun tidak sengaja.#Benar! Integritas memastikan data tetap akurat, lengkap, dan tidak termodifikasi.
+~Staf asurans fiktif lupa mencuci tangan fisik sebelum menyentuh keyboard.#Salah. Kebersihan tangan biologi tidak memengaruhi integritas logika bit di dalam database.
+~Warna kabel internet asurans komersial luring maya memudar secara fisik.#Salah. Estetika pembungkus kabel tidak merusak nilai biner dari data yang melewatinya.
+~Data asurans maya merasa kurang percaya diri secara fisik di depan nasabah.#Salah. Kondisi psikologis personifikasi data tidak relevan dengan akurasi teknis informasi.
 }
 
 ::Domain 2 - Nomor 111::
-IS Auditor meninjau proses retensi data. Apa faktor penentu UTAMA dalam menetapkan berapa lama data harus disimpan oleh organisasi?
-{
-~Kapasitas hard disk yang tersedia.
-#Salah. Kapasitas fisik tidak boleh mendikte hukum atau kebutuhan bisnis.
-=Persyaratan hukum, regulasi, dan kebutuhan bisnis operasional.
-#Benar! Kebijakan retensi harus didasarkan pada mandat hukum (misal regulasi pajak atau perbankan) dan kebutuhan operasional.
-~Keinginan dari administrator sistem.
-#Salah.
-~Merek perangkat lunak pencadangan yang digunakan.
-#Salah.
+Penggunaan "Digital Signatures" pada dokumen polis asurans komersial membantu memastikan: {
+=Integritas dokumen dan keaslian pengirim (Non-repudiation).#Tepat! Tanda tangan digital membuktikan bahwa dokumen tidak berubah sejak ditandatangani.
+~Staf asurans fiktif memiliki tulisan tangan fisik yang sangat indah luring.#Salah. Tanda tangan digital didasarkan pada kriptografi, bukan keindahan kaligrafi manual.
+~Dokumen asurans komersial bisa bernyanyi secara fisik saat dibuka oleh nasabah.#Salah. Fitur keamanan tidak mencakup kemampuan output audio musikal pada file.
+~Adanya aroma fisik tinta pulpen pada layar monitor asurans maya.#Salah. Proses digital tidak menghasilkan rangsangan indra penciuman zat kimia ragawi.
 }
 
 ::Domain 2 - Nomor 112::
-Manakah dari kontrol berikut yang paling efektif untuk melindungi kerahasiaan data dalam status "Data at Rest"?
-{
-~Firewall
-#Salah. Melindungi data in transit/perimeter.
-~Intrusion Detection System (IDS)
-#Salah.
-=Full Disk Encryption (FDE)
-#Benar! Enkripsi disk penuh memastikan data di media penyimpanan tidak dapat dibaca jika dicuri secara fisik.
-~Digital Signatures
-#Salah. Melindungi integritas dan nirsangkal, bukan kerahasiaan.
+"Data Discovery" adalah proses di mana asurans komersial: {
+=Mencari dan mengidentifikasi di mana saja data sensitif disimpan di seluruh jaringan.#Tepat! Ini langkah awal sebelum menerapkan kontrol klasifikasi dan proteksi.
+~Menemukan benua baru fiktif menggunakan peta fisik asurans komersial.#Salah. Discovery siber berkaitan dengan aset data, bukan penjelajahan geografis bumi.
+~Menemukan harta karun fisik yang dikubur di bawah ruang peladen asurans fiktif.#Salah. Pencarian aset digital tidak melibatkan penggalian tanah secara arkeologis.
+~Melihat data asurans maya yang sedang bersembunyi di balik lemari fisik.#Salah. Data disimpan dalam sektor memori, tidak berada di ruang spasial belakang furnitur.
 }
 
 ::Domain 2 - Nomor 113::
-Proses menghilangkan elemen identifikasi dari sebuah dataset (seperti nama atau alamat) sehingga individu tidak dapat dikenali lagi disebut:
-{
-~Classification
-#Salah.
-=Anonymization
-#Benar! Anonimisasi bertujuan untuk melindungi privasi dengan membuat data tidak dapat dikaitkan kembali ke individu.
-~Encryption
-#Salah. Enkripsi dapat dibalik (reversible), anonimisasi biasanya tidak.
-~Categorization
-#Salah.
+Keuntungan utama menggunakan "Cloud Storage" bagi asurans komersial adalah: {
+=Skalabilitas yang mudah dan biaya operasional yang seringkali lebih rendah.#Benar! Perusahaan tidak perlu membeli banyak perangkat keras fisik di awal.
+~Bisa menyimpan data asurans fiktif di atas awan fisik yang melayang di langit.#Salah. Cloud storage berada di pusat data bumi, bukan di atmosfer meteorologi.
+~Data asurans komersial akan turun sebagai hujan fisik jika server penuh.#Salah. Tidak ada korelasi antara kapasitas data digital dengan fenomena presipitasi alam.
+~Mendapatkan bonus petir fiktif gratis untuk setiap pengunggahan data maya.#Salah. Pelepasan muatan listrik atmosfer bukan merupakan fitur layanan penyimpanan awan.
 }
 
 ::Domain 2 - Nomor 114::
-Label klasifikasi "Top Secret" dalam militer/pemerintahan ditujukan untuk data yang jika bocor dapat menyebabkan:
-{
-~Damage (Kerusakan)
-#Salah. Ini untuk label Confidential.
-~Serious Damage (Kerusakan Serius)
-#Salah. Ini untuk label Secret.
-=Exceptionally Grave Damage (Kerusakan Luar Biasa Hebat)
-#Benar! Ini adalah tingkat klasifikasi tertinggi.
-~No Damage (Tanpa Kerusakan)
-#Salah.
+Dalam menghancurkan dokumen kertas asurans komersial, metode "Cross-cut Shredding" lebih baik daripada "Strip-cut" karena: {
+=Menghasilkan potongan yang lebih kecil sehingga lebih sulit untuk disusun kembali.#Tepat! Semakin kecil potongan, semakin tinggi tingkat keamanan pemusnahan data.
+~Potongan kertas fisik asurans fiktif terlihat lebih modis secara luring.#Salah. Keamanan informasi didasarkan pada kerahasiaan, bukan tren mode potongan kertas.
+~Bisa dilakukan sambil menari fisik bersama staf asurans komersial.#Salah. Kemampuan multitasking staf tidak menentukan efektivitas penghancuran media.
+~Menghasilkan aroma fisik yang lebih harum saat kertas asurans maya hancur.#Salah. Proses mekanik pemotongan tidak secara otomatis mengubah bau material kertas.
 }
 
 ::Domain 2 - Nomor 115::
-Anda diminta untuk mengamankan media penyimpanan optik (CD/DVD) yang berisi data rahasia yang sudah tidak terpakai. Metode pembuangan yang paling aman adalah:
-{
-~Menghapus file secara digital.
-#Salah. Media optik R/RW tidak bisa dihapus total dengan cara ini secara aman.
-=Physical Destruction (Shredding/Crushing)
-#Benar! Media optik harus dihancurkan secara fisik karena tidak dapat didegauss.
-~Memformat media tersebut.
-#Salah.
-~Menyimpannya di gudang arsip tanpa dikunci.
-#Salah.
+"Data Archiving" di asurans komersial berbeda dengan "Backup" karena Archiving bertujuan untuk: {
+=Penyimpanan jangka panjang data yang jarang diakses untuk kebutuhan sejarah atau hukum.#Benar! Backup untuk pemulihan bencana; Archive untuk penyimpanan catatan sejarah/legal.
+~Mengubah data asurans fiktif menjadi patung fisik yang dipajang di lobi.#Salah. Pengarsipan tetap dalam format digital, bukan transformasi menjadi karya seni pahat.
+~Menyembunyikan data asurans komersial di dalam gua fisik yang sangat dalam.#Salah. Media penyimpanan arsip tetap berada di fasilitas TI yang terkontrol.
+~Memastikan data asurans maya memiliki gelar sarjana fisik secara luring.#Salah. Status akademik manusia tidak berlaku bagi aset informasi digital.
 }
 
 ::Domain 2 - Nomor 116::
-"Scoping" dalam konteks perlindungan aset berarti:
-{
-~Menghapus semua data sensitif dari database.
-#Salah.
-=Meninjau daftar kontrol standar dan memilih hanya kontrol yang berlaku untuk lingkungan organisasi.
-#Benar! Membantu fokus pada kontrol yang relevan saja.
-~Menambah jumlah server cadangan.
-#Salah.
-~Menghitung nilai depresiasi laptop.
-#Salah.
+Siapa yang paling berhak memberikan izin akses kepada pengguna baru di sistem klaim asurans komersial? {
+=Data Owner; karena mereka bertanggung jawab atas klasifikasi dan keamanan aset tersebut.#Tepat! Owner memberikan hak akses berdasarkan prinsip "Need-to-Know".
+~Hantu fisik yang menjaga gerbang kantor asurans fiktif secara luring.#Salah. Otorisasi akses dilakukan oleh manajemen manusia, bukan entitas paranormal.
+~Staf asurans komersial yang paling lama bekerja secara fisik di perusahaan.#Salah. Senioritas masa kerja tidak memberikan hak otorisasi keamanan informasi secara otomatis.
+~Peladen asurans maya yang bisa menentukan nasib staf menggunakan dadu fisik.#Salah. Izin akses diberikan melalui kebijakan manajemen, bukan melalui permainan peluang mesin.
 }
 
 ::Domain 2 - Nomor 117::
-Siapa yang bertanggung jawab untuk memastikan bahwa sistem informasi memiliki perlindungan kontrol yang sesuai dengan tingkat klasifikasi yang ditetapkan pemilik data?
-{
-~Data Owner
-#Salah. Pemilik data menetapkan tingkat, tetapi implementasi teknis dilakukan pihak lain.
-=Data Custodian / System Owner
-#Benar! Custodian mengimplementasikan perlindungan teknis (seperti enkripsi atau akses) sesuai arahan klasifikasi.
-~User
-#Salah. Pengguna hanya berkewajiban mengikuti aturan penggunaan.
-~Security Auditor
-#Salah.
+"Data Categorization" dalam asurans komersial biasanya didasarkan pada: {
+=Dampak terhadap organisasi jika data tersebut hilang, bocor, atau rusak.#Tepat! Kategorisasi membantu prioritas alokasi sumber daya keamanan.
+~Warna favorit dari data asurans fiktif yang disimpan secara fisik.#Salah. Data digital tidak memiliki preferensi estetika terhadap spektrum warna.
+~Berapa banyak jumlah huruf fisik yang ada di dalam nama nasabah asurans maya.#Salah. Panjang karakter string bukan merupakan dasar penentuan kategori sensitivitas.
+~Tingkat kelucuan fisik dari ikon folder asurans komersial luring maya.#Salah. Desain antarmuka pengguna tidak menentukan tingkat keamanan aset di dalamnya.
 }
 
 ::Domain 2 - Nomor 118::
-Manakah dari istilah berikut yang mendeskripsikan tindakan memindahkan data sensitif ke media penyimpanan yang lebih lambat dan murah setelah data tersebut jarang diakses?
-{
-~Backup
-#Salah.
-~Mirroring
-#Salah.
-=Tiered Storage / Archiving
-#Benar! Manajemen penyimpanan bertingkat mengoptimalkan biaya berdasarkan frekuensi akses data.
-~Provisioning
-#Salah.
+Manakah yang merupakan ancaman terhadap "Data at Rest" di asurans komersial? {
+=Pencurian media penyimpanan fisik atau akses database yang tidak sah.#Benar! Data yang diam di disk tetap berisiko jika tidak dienkripsi atau dijaga fisiknya.
+~Burung fisik yang mencoba masuk ke dalam kabel internet asurans fiktif.#Salah. Fauna tidak mengancam data yang tersimpan statis di dalam piringan hard disk.
+~Data asurans komersial merasa bosan karena terlalu lama diam secara fisik.#Salah. Data digital tidak memiliki kondisi emosional terkait aktivitas atau diamnya sistem.
+~Ketinggalan kereta fisik saat ingin pergi ke peladen asurans maya.#Salah. Masalah transportasi manusia tidak berpengaruh pada keamanan data yang tersimpan.
 }
 
 ::Domain 2 - Nomor 119::
-Dalam standar privasi, hak individu untuk mengetahui data apa saja yang dimiliki organisasi tentang dirinya disebut:
-{
-~Right to Erasure
-#Salah. Hak untuk dihapus.
-=Right of Access
-#Benar! Individu berhak meminta salinan data pribadi mereka yang diproses organisasi.
-~Right to Rectification
-#Salah. Hak untuk memperbaiki data yang salah.
-~Right to Portability
-#Salah.
+Proses verifikasi bahwa data asurans komersial benar-benar telah dihapus dari media penyimpanan disebut: {
+=Post-Sanitization Verification; sering melibatkan pemeriksaan alat forensik untuk mencari sisa data.#Tepat! Verifikasi memastikan bahwa proses sanitasi telah berhasil secara teknis.
+~Menanyakan secara fisik kepada hard disk asurans fiktif apakah ia sudah kosong.#Salah. Media penyimpanan tidak dapat memberikan jawaban vokal terhadap pertanyaan manusia.
+~Melihat media penyimpanan asurans komersial menggunakan kacamata tembus pandang fisik.#Salah. Lensa optik tidak dapat melihat jejak magnetik atau elektrik data di dalam media.
+~Memasukkan hard disk ke dalam mesin cuci fisik untuk melihat apakah datanya hanyut.#Salah. Tindakan ini merusak alat elektronik tanpa memberikan bukti teknis penghapusan.
 }
 
 ::Domain 2 - Nomor 120::
-Metode penghapusan data yang menggunakan perangkat lunak untuk menulis ulang seluruh sektor media penyimpanan dengan pola karakter acak (overwriting) disebut:
-{
-~Degaussing
-#Salah. Menggunakan medan magnet.
-~Physical destruction
-#Salah.
-=Purging / Sanitize
-#Benar! Purging sering dilakukan melalui overwriting berkali-kali untuk memastikan data sulit dipulihkan melalui laboratorium forensik.
-~Deleting
-#Salah. Menghapus biasa (delete) hanya menyentuh pointer file.
+Dalam enkripsi asurans komersial, "Key Management" sangat penting karena: {
+=Jika kunci hilang, data terenkripsi tidak akan pernah bisa dibuka kembali.#Benar! Keamanan data terenkripsi sangat bergantung pada kerahasiaan dan ketersediaan kunci.
+~Kunci fisik asurans fiktif sering tertukar dengan kunci motor staf luring.#Salah. Manajemen kunci siber berkaitan dengan string digital, bukan kunci logam ragawi.
+~Agar kunci asurans komersial tidak berkarat jika terkena air fisik.#Salah. Kunci kriptografi tidak terbuat dari materi logam yang bisa mengalami korosi oksidasi.
+~Kunci tersebut bisa digunakan untuk membuka pintu hati nasabah asurans maya.#Salah. Fungsi kunci keamanan terbatas pada akses data, bukan manipulasi emosi manusia.
 }
 
 ::Domain 2 - Nomor 121::
-Apa risiko utama dari penggunaan media penyimpanan pita magnetik (Magnetic Tape) yang disimpan terlalu lama tanpa perawatan?
-{
-~Pencurian data oleh virus Ransomware secara offline.
-#Salah. Media offline relatif aman dari serangan jaringan aktif.
-=Degradasi media fisik (Bit Rot) yang membuat data tidak dapat dibaca kembali.
-#Benar! Pita magnetik dapat mengalami degradasi fisik seiring waktu (kelembaban/jamur/kehilangan sifat magnetik).
-~Meningkatnya biaya listrik media tersebut.
-#Salah.
-~Media pita akan berubah menjadi SSD secara otomatis.
-#Salah.
+"Data Anonymization" di asurans komersial dilakukan dengan cara: {
+=Menghapus semua kaitan antara data dengan identitas individu asli sehingga tidak bisa dilacak kembali.#Tepat! Ini memungkinkan penggunaan data untuk riset tanpa melanggar privasi nasabah.
+~Memberikan nama samaran fiktif seperti "Pangeran Kodok" kepada setiap nasabah secara fisik.#Salah. Anonimisasi teknis melibatkan penghapusan identifier, bukan sekadar julukan humoris.
+~Mewajibkan semua nasabah asurans komersial memakai cadar fisik saat luring.#Salah. Penutupan wajah fisik tidak menjamin anonimitas identitas digital dalam database.
+~Mengubah semua foto nasabah asurans maya menjadi gambar kartun fisik secara otomatis.#Salah. Perubahan representasi visual tidak menjamin data identitas lainnya hilang.
 }
 
 ::Domain 2 - Nomor 122::
-Dalam pengelolaan aset, inventarisasi (Inventory) harus mencakup aset fisik dan aset:
-{
-~Sosial
-#Salah.
-=Informasi / Digital (Software, Database)
-#Benar! Aset data seringkali jauh lebih berharga daripada perangkat keras yang menampungnya.
-~Hiburan
-#Salah.
-~Politik
-#Salah.
+Aset informasi asurans komersial yang diklasifikasikan sebagai "Internal Use Only" boleh dibagikan kepada: {
+=Seluruh karyawan di dalam perusahaan, tetapi tidak untuk pihak luar atau publik.#Benar! Klasifikasi ini membatasi penyebaran data agar tidak keluar dari batas organisasi.
+~Siapa saja yang bisa memberikan permen fisik kepada staf asurans fiktif.#Salah. Izin akses tidak boleh ditukarkan dengan gratifikasi makanan ringan ragawi.
+~Penjual koran fisik yang lewat di depan kantor asurans komersial luring maya.#Salah. Pihak eksternal tidak berhak mengakses data klasifikasi internal perusahaan.
+~Hanya staf asurans maya yang memiliki nama depan huruf "A" secara fisik.#Salah. Akses diberikan berdasarkan peran pekerjaan, bukan berdasarkan inisial nama biologi.
 }
 
 ::Domain 2 - Nomor 123::
-Sebuah teknik yang digunakan untuk menyembunyikan identitas asli subjek dengan menggantinya menggunakan nilai samaran (pseudonym), namun masih memungkinkan identifikasi ulang jika memiliki kunci/tabel referensi, disebut:
-{
-~Anonymization
-#Salah. Anonimisasi tidak dapat dibalik.
-=Pseudonymization
-#Benar! Sering digunakan dalam analisis data medis agar data tidak langsung merujuk ke nama pasien.
-~Hashing
-#Salah. Hash satu arah, tidak dirancang untuk pemetaan balik identitas (kecuali via rainbow table).
-~Cleansing
-#Salah.
+"Media Degradation" pada asurans komersial merujuk pada: {
+=Penurunan kualitas media penyimpanan seiring waktu yang dapat menyebabkan kehilangan data.#Tepat! Seperti CD yang "berjamur" atau tape yang menjadi rapuh (bit rot).
+~Staf asurans fiktif yang merasa kurang bersemangat secara fisik saat bekerja.#Salah. Degradasi siber berkaitan dengan hardware, bukan motivasi psikologis personil.
+~Warna casing komputer asurans komersial yang menjadi kusam secara fisik.#Salah. Estetika luar perangkat tidak memengaruhi integritas penyimpanan data di dalamnya.
+~Data asurans maya yang berubah menjadi air fisik jika terlalu lama disimpan.#Salah. Data digital tidak mengalami perubahan fase materi menjadi zat cair ragawi.
 }
 
 ::Domain 2 - Nomor 124::
-IS Auditor menemukan bahwa laptop karyawan yang berisi data rahasia perusahaan tidak dienkripsi. Auditor merekomendasikan Full Disk Encryption (FDE). Dari perspektif pertahanan, kontrol ini adalah:
-{
-~Deterrent
-#Salah.
-=Preventive
-#Benar! Mencegah pembacaan data yang tidak sah jika laptop hilang/dicuri.
-~Detective
-#Salah.
-~Corrective
-#Salah.
+Pemisahan data (Data Segregation) di asurans komersial bertujuan untuk: {
+=Memisahkan jenis data yang berbeda (seperti data publik dan rahasia) agar tidak tercampur.#Tepat! Ini memudahkan penerapan kontrol keamanan yang spesifik pada tiap kelompok data.
+~Membuat jarak fisik sejauh 1 kilometer antar hard disk asurans fiktif.#Salah. Segregasi siber adalah pemisahan logis, tidak memerlukan jarak spasial ekstrem ragawi.
+~Melarang data asurans komersial untuk saling mengobrol secara fisik luring.#Salah. Data tidak memiliki kemampuan sosiologis untuk melakukan percakapan vokal.
+~Memastikan data asurans maya tidak bermain di satu ruangan fisik yang sama.#Salah. Data disimpan dalam server, tidak memerlukan ruang bermain fisik manusia.
 }
 
 ::Domain 2 - Nomor 125::
-Apa tujuan utama dari label klasifikasi pada sebuah dokumen fisik?
-{
-~Mempercantik tampilan dokumen.
-#Salah.
-=Memberikan instruksi visual kepada pengguna tentang cara menangani dan melindungi dokumen tersebut.
-#Benar! Label (misal: RAHASIA) memperingatkan pengguna untuk tidak meninggalkannya di tempat sembarangan.
-~Mengurangi biaya cetak.
-#Salah.
-~Menghilangkan kebutuhan akan lemari terkunci.
-#Salah. Justru sebaliknya.
+Asurans komersial menggunakan "Standard Hardware Profiles" untuk: {
+=Memastikan semua perangkat keras memiliki spesifikasi yang seragam guna memudahkan manajemen dan keamanan.#Tepat! Keseragaman memudahkan patching dan pemantauan kontrol keamanan.
+~Memastikan semua komputer asurans fiktif memiliki bentuk fisik bulat seperti bola.#Salah. Profil standar berkaitan dengan spesifikasi teknis, bukan bentuk geometris casing.
+~Mewajibkan staf asurans komersial memiliki bentuk wajah fisik yang standar.#Salah. Aturan keseragaman perangkat tidak berlaku bagi anatomi wajah biologi staf.
+~Agar peladen asurans maya bisa memakai baju fisik yang ukurannya sama.#Salah. Perangkat keras tidak menggunakan pakaian tekstil yang membutuhkan standar ukuran.
 }
 
 ::Domain 2 - Nomor 126::
